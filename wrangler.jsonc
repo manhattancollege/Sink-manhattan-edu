@@ -26,5 +26,15 @@
       "binding": "KV",
       "id": "291d42c056484c18a1328d65798ebd9d" // IMPORTANT: Change this to your KV namespace ID
     }
-  ]
+  ],
+  "observability": {
+    "enabled": false,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    }
+  }
 }
